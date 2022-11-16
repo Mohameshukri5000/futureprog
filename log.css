@@ -1,0 +1,131 @@
+body {
+    font-family: "Quicksand", sans-serif;
+    background-color: rgb(255, 255, 255);
+    text-align:center;
+    background-image:url("pexels-photo-2847648.jpeg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    height:100vh;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .container {
+    padding: 16px;
+    width:30%;
+    margin:auto;
+    border-radius:20px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+  }
+ 
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #ffffff;
+    text-align:center;
+    border-radius:10px;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: rgb(160, 160, 160);
+    outline: none;
+    transition:0.6s;
+  }
+
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+
+  .registerbtn {
+    background-color: rgb(121, 121, 121);
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  body {
+    display: inline-block;
+    justify-content: center;
+    align-items:flex-end;
+    min-height: 100vh;
+    background: #2b2b2b;
+    transition: 0.5s;
+  }
+  
+  body.active {
+    background: #f8f8f8;
+  }
+  
+  #toggle {
+    position: relative;
+    display: block;
+    width: 100px;
+    height: 50px;
+    border-radius: 160px;
+    background: #222;
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: inset 0 8px 60px rgba(0, 0, 0, 0.1),
+      inset 0 8px 8px rgba(0, 0, 0, 0.1),
+      inset 0 -4px 4px rgba(0, 0, 0, 0.1);
+      margin-left: 20px;
+      margin-top: 20px;
+  }
+  
+  #toggle .indicator {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(to bottom, #444, #222);
+    border-radius: 50%;
+    transform: scale(0.9);
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5),
+      inset 0 40px 4px rgba(255, 255, 255, 0.2),
+      inset 0 -4px 4px rgba(255, 255, 255, 0.2);
+    transition: 0.5s;
+  }
+  
+  #toggle.active {
+    background: #fff;
+    box-shadow: inset 0 2px 60px rgba(0, 0, 0, 0.1),
+      inset 0 2px 8px rgba(0, 0, 0, 0.1),
+      inset 0 -4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #toggle.active .indicator {
+    left: 50px;
+    background: linear-gradient(to bottom, #eaeaea, #f9f9f9);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1),
+      inset 0 40px 4px rgba(255, 255, 255, 1),
+      inset 0 -4px 4px rgba(255, 255, 255, 1);
+  }
